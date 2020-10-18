@@ -2,7 +2,7 @@ pipeline {
     agent { label "master" }
     environment {
         ECR_REGISTRY = "656003888283.dkr.ecr.us-east-1.amazonaws.com"
-        APP_REPO_NAME= "batiky/todo-app"
+        APP_REPO_NAME= "muhabbat/todo-app-repo"
     }
     stages {
         stage('Build Docker Image') {
